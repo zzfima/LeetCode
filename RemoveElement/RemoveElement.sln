@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32611.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveElement", "RemoveElement\RemoveElement.csproj", "{29D46586-7F99-4DF3-9D18-4F1107FB89EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{BE0BA53D-52F5-4CAC-98EA-85ED52DDF51C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29D46586-7F99-4DF3-9D18-4F1107FB89EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29D46586-7F99-4DF3-9D18-4F1107FB89EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29D46586-7F99-4DF3-9D18-4F1107FB89EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29D46586-7F99-4DF3-9D18-4F1107FB89EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE0BA53D-52F5-4CAC-98EA-85ED52DDF51C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE0BA53D-52F5-4CAC-98EA-85ED52DDF51C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE0BA53D-52F5-4CAC-98EA-85ED52DDF51C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE0BA53D-52F5-4CAC-98EA-85ED52DDF51C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3914C9CE-DCE2-4875-B7B3-58DA8612977D}
+	EndGlobalSection
+EndGlobal
