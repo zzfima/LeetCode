@@ -4,11 +4,19 @@
     {
         public static int RemoveDuplicates(int[] nums)
         {
-            var count = (nums.Length == 0 ? 0 : 1);
+            int count = 1;
+            if (nums.Length == 1)
+                return count;
 
             foreach (var num in nums)
+            {
                 if (nums[count - 1] < num)
-                    nums[count++] = num;
+                {
+                    nums[count] = num;
+                    count++;
+                }
+
+            }
 
             return count;
         }

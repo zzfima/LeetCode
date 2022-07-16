@@ -22,8 +22,8 @@ namespace UnitTestProject1
         public void TestMethod2()
         {
             int[] ints = { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
-            int[] resInts = { 1, 2, 3 };
-            int resInt = 3;
+            int[] resInts = { 0, 1, 2, 3, 4, 2, 2, 3, 3, 4 };
+            int resInt = 5;
 
             var res = Solution.RemoveDuplicates(ints);
             Assert.AreEqual(resInt, res);
