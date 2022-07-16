@@ -41,5 +41,17 @@ namespace UnitTestProject1
             Assert.AreEqual(resInt, res);
             CollectionAssert.AreEqual(resInts, ints);
         }
+
+        [TestMethod]
+        public void TestMethod4()
+        {
+            int[] ints = { 1 };
+            int[] resInts = { 1 };
+            int resInt = 0;
+
+            var res = Solution.RemoveElement(ints, 1);
+            Assert.AreEqual(resInt, res);
+            CollectionAssert.AreEqual(resInts, ints);
+        }
     }
 }
