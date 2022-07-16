@@ -6,7 +6,8 @@
         {
             int count = 0;
             if (nums.Length == 1)
-                return count;
+                return 1;
+
             int tail = nums.Length - 1;
             for (int i = 0; i <= tail; i++)
             {
